@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to DestinaGo"
+        android:textSize="28sp"
+        android:textColor="@color/white"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/subtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Discover Your Next Adventure"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:fontFamily="serif"
+        android:layout_below="@id/welcomeText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp" />
+
+    <TextView
+        android:id="@+id/signInPrompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ready to Explore?"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif"
+        android:layout_below="@id/subtext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp" />
+
+    <Button
+        android:id="@+id/extansibleButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Explore Destinations"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#ff8c00"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp" />
+
+
+    <TextView
+        android:id="@+id/signature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Handcrafted with Care by DestinaGo Team"
+        android:textSize="14sp"
+        android:textColor="#E91E63"
+        android:fontFamily="cursive"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" />
+
+</RelativeLayout>

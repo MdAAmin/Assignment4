@@ -1,0 +1,29 @@
+<resources>
+
+    <string-array name="destinations_array">
+        <item>Europe</item>
+        <item>Asia</item>
+        <item>North America</item>
+    </string-array>
+
+    <string-array name="europe_array">
+        <item>Eiffel Tower</item>
+        <item>Colosseum</item>
+        <item>Big Ben</item>
+    </string-array>
+
+    <string-array name="asia_array">
+        <item>Great Wall of China</item>
+        <item>Taj Mahal</item>
+        <item>Mount Fuji</item>
+    </string-array>
+
+    <string-array name="north_america_array">
+        <item>Statue of Liberty</item>
+        <item>Grand Canyon</item>
+        <item>Niagara Falls</item>
+    </string-array>
+
+
+    <string name="app_name">DestinaGo</string>
+</resources>
