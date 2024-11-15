@@ -1,5 +1,7 @@
 <resources>
 
+    <string name="app_name">DestinaGo</string>
+
     <string-array name="destinations_array">
         <item>Europe</item>
         <item>Asia</item>
@@ -24,6 +26,42 @@
         <item>Niagara Falls</item>
     </string-array>
 
+    <string name="title">Title</string>
+    <string name="subtitle">Subtitle</string>
+    <string-array name="tech_array">
+        <item>Europe</item>
+        <item>Asia</item>
+        <item>North America</item>
+    </string-array>
+    <color name="fire_brick_200">#70CDF6</color>
+    <color name="air_superiority_blue_200">#EC8DAD</color>
 
-    <string name="app_name">DestinaGo</string>
+    <string-array name="europe_location">
+        <item>Eiffel Tower:
+            Location: Paris, France.
+             Coordinates: 48.8584° N, 2.2945° E</item>
+        <item>Colosseum:
+            Location: Rome, Italy. Coordinates: 41.8902° N, 12.4922° E</item>
+        <item>Big Ben:
+            Location: London, England, UK. Coordinates: 51.5007° N, 0.1246° W</item>
+    </string-array>
+
+    <string-array name="asia_location">
+        <item>Great Wall of China:
+        Location: Near Beijing, China.
+        Coordinates: 40.4319° N, 116.5704° E</item>
+        <item>Taj Mahal:
+            Location: Agra, India. Coordinates: 27.1751° N, 78.0421° E</item>
+        <item>Mount Fuji:
+        Location: Honshu, Japan. Coordinates: 35.3606° N, 138.7274° E</item>
+    </string-array>
+
+    <string-array name="north_america_location">
+        <item>Statue of Liberty: Location: New York City, New York, USA. Coordinates: 40.6892° N, 74.0445° W</item>
+        <item>Grand Canyon: Location: Arizona, USA.
+Coordinates: 36.1069° N, 112.1129° W</item>
+        <item>Niagara Falls: Location: Border of Ontario, Canada and New York, USA.
+ Coordinates: 43.0962° N, 79.0377° W</item>
+    </string-array>
+
 </resources>

@@ -12,7 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DestinaGo"
         tools:targetApi="31">
-
+        <activity
+            android:name=".LocationActivity"
+            android:exported="false" />
         <activity
             android:name=".ExpandableListActivity"
             android:exported="false" />

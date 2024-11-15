@@ -15,7 +15,7 @@
         android:textStyle="bold"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="8dp" />
+        android:layout_marginTop="50dp" />
 
     <TextView
         android:id="@+id/subtext"
@@ -39,7 +39,7 @@
         android:fontFamily="sans-serif"
         android:layout_below="@id/subtext"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="450dp" />
+        android:layout_marginTop="50dp" />
 
     <Button
         android:id="@+id/extansibleButton"
@@ -49,8 +49,8 @@
         android:textColor="@android:color/white"
         android:backgroundTint="#ff8c00"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="600dp" />
-
+        android:layout_below="@id/signInPrompt"
+        android:layout_marginTop="30dp" />
 
     <TextView
         android:id="@+id/signature"
